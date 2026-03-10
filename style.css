@@ -165,7 +165,7 @@ h3 {
   font-size: 1.35rem;
   font-weight: 400;
   font-style: italic;
-  color: var(--gold);
+  color: var(--navy-light);
   margin-bottom: 24px;
 }
 
@@ -358,6 +358,19 @@ h3 {
   height: 10px;
   border: 2px solid var(--gold);
   border-radius: 2px;
+}
+
+.workbook-preview {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.workbook-preview img {
+  width: 100%;
+  height: auto;
 }
 
 .bundle .cta-group {
